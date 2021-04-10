@@ -1,4 +1,4 @@
- Aim of the project
+& Aim of the project&
  **********
 Deploy nginx on webservers and haproxy on load-balancer.
 The load-balancer should be able to successfully load balance the client requests.
