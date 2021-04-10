@@ -7,7 +7,7 @@ Setup
 ***********
 
 
-Required network to be created
+**Required network to be created**
 ***************
 (Internet)---> HAProxy	
 		+--->A	|--
@@ -17,7 +17,7 @@ Required network to be created
 ****************
 
 
-Deployment of nginx into webservers and haproxy load balancer into haproxy server.
+**Deployment of nginx into webservers and haproxy load balancer into haproxy server**
 
 ***************
 Deploy nginx servers to targeted webserver hosts and required php packages also to targeted webserver hosts.
@@ -30,7 +30,7 @@ Restart haproxy servers.
 
 
 
-Command to run the playbook.
+**Command to run the playbook**
 *********
 ansible-playbook -i hosts site.yaml
 *********
