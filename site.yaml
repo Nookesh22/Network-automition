@@ -11,7 +11,7 @@
         state: latest
         update_cache: yes
     
-    - name: start ningx server
+    - name: start nginx server
       service: 
         name: nginx 
         state: started
@@ -24,10 +24,10 @@
         state: latest 
         update_cache: yes
 
-    - name: copying the ngiunx server configuration 
+    - name: copying the nginx server configuration 
       copy:
          src=./default
-         dest=/etc/nginx/sites_available/
+         dest=/etc/nginx/sites-available/default
 
     - name: congifuraing the index file
       copy:
