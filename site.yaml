@@ -35,9 +35,8 @@
          dest=/var/www/html/index.php
 
 
-    - name: restating the nginx server
+    - name: restarting the nginx server
       service:
-
         name: nginx
         state: restarted 
 
